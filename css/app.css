@@ -92,5 +92,14 @@
 .social:hover{
 	color:  #C3A5A0; 
 }
+
+.vertical-menu{
+	list-style: none;
+}
+
+.vertical-menu > li{
+	margin: 10px;
+	border-bottom: dotted 2px rgba(100, 100, 100, 0.5);
+}
 // Changes to The elements //
 
