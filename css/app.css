@@ -1,43 +1,63 @@
+// Initial Settings //
+
 .html,
 .body{
 	height: 100%;
 	width: 100%;
 }
 
-.full-screen-image{
-	height: 100%;
-	width: 100%;	
-	background-image: url('../img/0.png');
-	background-attachment: fixed;
+.cover{
+	background-image: url('../img/0.jpg');
+	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	height: 60%;
+	width: 100%;
+
 }
 
 .fullWidth {
    width: 100%;
    margin-left: auto;
    margin-right: auto;
-   max-width: initial;
-   
-   height: 80%;
+   max-width: initial;    
 }
 
+.centerify{
+	text-align: center;
+}
 
 .full-screen{
 	height: 100%;
 	width: 100%;
-	margin: 0;
-	padding: 0;
+	margin: 0;	
 	background-color: rgba(0,0,0,0);
 }
 
+.content{
+	padding: 60px 20px;
+	height: 100%;
+	width: 100%;
+}
 .full-height-box{
 	height: 100%;	
-	box-shadow: 0px 0px 13px rgba(100, 100, 100, 0.8);		
+	box-shadow: 0px 0px 13px rgba(00, 00, 00, 0.8);	
+	text-align: center;
 }
 
+.themeprimary{
+	background-color: #39444E;
+}
+
+.themesecondary{
+	background-color: #333333;
+}
+
+.themerest{
+	background-color: #e4bc9b;
+}
 
 .setprimary{
-	background-color: #D49764;
+	background-color: #D49764;	
 }
 .setsecondary{
 	background-color: #D5D1CF;
@@ -50,3 +70,16 @@
 .column{
 	height: 100%;			
 }
+
+.textprimary{
+	color: #000;
+}
+.textsecondary{
+	color: #fff;
+}
+.textrest{
+	color: #D49764;
+}
+
+// Changes to The elements //
+
