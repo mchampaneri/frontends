@@ -10,7 +10,7 @@
 	background-image: url('../img/0.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 60%;
+	height: 80%;
 	width: 100%;
 
 }
@@ -31,6 +31,7 @@
 	width: 100%;
 	margin: 0;	
 	background-color: rgba(0,0,0,0);
+	position: relative;
 }
 
 .content{
@@ -53,7 +54,7 @@
 }
 
 .themerest{
-	background-color: #e4bc9b;
+	background-color: #28343D;
 }
 
 .setprimary{
@@ -81,5 +82,15 @@
 	color: #D49764;
 }
 
+.social{
+	font-size: 4em;
+	padding: 4px;
+	margin: 4px;
+	transition: 0.7s all linear;
+}
+
+.social:hover{
+	color:  #C3A5A0; 
+}
 // Changes to The elements //
 
